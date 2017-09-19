@@ -1,0 +1,25 @@
+{
+  "name": "pertestimate",
+  "version": "0.0.1",
+  "description": "Turn those off-the-cuff estimates into something more concrete your manager will be happy with",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwarduk/pertestimate.git"
+  },
+  "keywords": [
+    "estimate",
+    "pertestimate",
+    "time",
+    "tracking"
+  ],
+  "author": "Jacob Ward <jacob@riino.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwarduk/pertestimate/issues"
+  },
+  "homepage": "https://github.com/jacobwarduk/pertestimate#readme"
+}
