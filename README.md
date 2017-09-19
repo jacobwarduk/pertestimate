@@ -1,7 +1,7 @@
 # pertestimate
 ## Give more accurate estimates using the PERT technique
 
-The PERT technique of task estimation was developed in...
+The PERT technique of task estimation is a trivariate estimate taking into account the best and worst possible scenarios to give a weighted average. It is also possible to calculate the standard deviation, which represents the level of confidence in the estimate.
 
 ## Install
 `npm install --save pertestimate`
@@ -9,7 +9,7 @@ The PERT technique of task estimation was developed in...
 ## Usage
 `pertestimate(guesstimates [, callback(results)]);`
 
-The first argument is an object with your 'guesstimates'.
+The first argument is an object with your best 'guesstimates'.
 ```
 {
     best: 3,   // [Number]: The best possible outcome you can imagine, given nothing goes wrong.
@@ -18,13 +18,7 @@ The first argument is an object with your 'guesstimates'.
 }
 ```
 
-The second argument is an optional callback function which receives an object containing the estimate and standard deviation.
-```
-{
-    estimate: 10.5, // [Number]: Realistic estimate of time needed to complete the task.
-    deviation: -2.8333333333333335  // [Number]: Standard deviation, or confidence in the estimate.
-}
-```
+The second argument is an optional callback function which receives an object containing the calculated estimate and standard deviation.
 
 ## Examples
 ```
