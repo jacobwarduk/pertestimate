@@ -1,16 +1,17 @@
 {
   "name": "pertestimate",
   "version": "0.0.1",
-  "description": "Turn those off-the-cuff estimates into something more concrete your manager will be happy with",
+  "description": "⏳ Turn those off-the-cuff estimates into something more flexible using the PERT technique",
   "main": "index.js",
   "scripts": {
-    "test": "xo && jasmine"
+    "test": "xo --fix && jasmine"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacobwarduk/pertestimate.git"
   },
   "keywords": [
+    "pert",
     "estimate",
     "pertestimate",
     "time",
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/jacobwarduk/pertestimate/issues"
   },
-  "homepage": "https://github.com/jacobwarduk/pertestimate#readme"
+  "homepage": "https://github.com/jacobwarduk/pertestimate#readme",
+  "xo": {
+    "globals": [
+      "jasmine",
+      "describe",
+      "it",
+      "expect"
+    ]
+  }
 }
