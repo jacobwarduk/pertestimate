@@ -31,5 +31,9 @@
       "it",
       "expect"
     ]
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "xo": "^0.18.2"
   }
 }
