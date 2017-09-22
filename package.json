@@ -1,6 +1,6 @@
 {
   "name": "pertestimate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "⏳ Turn those off-the-cuff estimates into something more flexible using the PERT technique",
   "main": "index.js",
   "scripts": {
