@@ -1,6 +1,8 @@
 # pertestimate
 ## Give more accurate estimates using the PERT technique
 
+[![npm](https://img.shields.io/npm/dt/true-noop.svg)](https://www.npmjs.com/package/true-noop) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)  [![Build Status](https://travis-ci.org/jacobwarduk/pertestimate.svg?branch=master)](https://travis-ci.org/jacobwarduk/pertestimate) [![Codecov branch](https://img.shields.io/codecov/c/github/jacobwarduk/pertestimate/master.svg)]()
+
 The PERT technique of task estimation is a trivariate estimate taking into account the best and worst possible scenarios to give a weighted average. It is also possible to calculate the standard deviation, which represents the level of confidence in the estimate.
 
 ## Install

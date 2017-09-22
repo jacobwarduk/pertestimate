@@ -4,7 +4,8 @@
   "description": "⏳ Turn those off-the-cuff estimates into something more flexible using the PERT technique",
   "main": "index.js",
   "scripts": {
-    "test": "xo --fix && jasmine"
+    "test": "xo --fix && jasmine && exit 0",
+    "cover": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
